@@ -1,126 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soni Apps - Official</title>
 
-    <title>Soni Apps - Official</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f8ff;
+    color: #222;
+}
 
-    <meta name="description"
-          content="Soni Apps creates simple, useful and privacy-friendly applications for everyday users.">
+header {
+    background: linear-gradient(135deg, #1683ff, #0057d9);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+header h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f8ff;
-            color: #222;
-            line-height: 1.6;
-        }
+header p {
+    font-size: 20px;
+}
 
-        header {
-            background: linear-gradient(135deg, #1683ff, #0057d9);
-            color: white;
-            text-align: center;
-            padding: 70px 20px;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-        header h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
 
-        header p {
-            font-size: 20px;
-            opacity: 0.95;
-        }
+h2 {
+    color: #075fd5;
+}
 
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 25px;
+    background: #1683ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
 
-        .card {
-            background: white;
-            padding: 30px;
-            margin-bottom: 25px;
-            border-radius: 18px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
+.download-btn:hover {
+    background: #0057d9;
+}
 
-        h2 {
-            color: #075fd5;
-            margin-bottom: 15px;
-        }
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
 
-        .app {
-            display: flex;
-            gap: 25px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+.feature {
+    background: #f0f6ff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
 
-        .app-icon {
-            width: 110px;
-            height: 110px;
-            border-radius: 22px;
-            background: #1683ff;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .feature {
-            background: #f0f6ff;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .feature h3 {
-            color: #075fd5;
-            margin-bottom: 8px;
-        }
-
-        footer {
-            background: #111827;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 20px;
-        }
-
-        a {
-            color: #075fd5;
-            text-decoration: none;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 36px;
-            }
-
-            header p {
-                font-size: 17px;
-            }
-        }
-    </style>
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
 </head>
 
 <body>
@@ -130,114 +92,91 @@
     <p>Simple • Useful • Privacy-Friendly Apps</p>
 </header>
 
-<main class="container">
+<div class="container">
 
-    <section class="card">
-        <h2>About Soni Apps</h2>
+<section class="card">
+    <h2>About Soni Apps</h2>
 
-        <p>
-            Soni Apps is focused on creating simple, useful and
-            easy-to-use applications for everyday users. Our goal is
-            to provide practical apps with a clean interface,
-            reliable performance and a user-friendly experience.
-        </p>
+    <p>
+        Soni Apps is focused on creating simple, useful and
+        easy-to-use applications for everyday users. Our goal is
+        to provide practical apps with a clean interface,
+        reliable performance and a user-friendly experience.
+    </p>
+</section>
 
-        <p style="margin-top: 12px;">
-            We continuously work on improving our applications and
-            developing new tools that make everyday tasks easier.
-        </p>
-    </section>
+<section class="card">
 
+    <h2>Soni Video Splitter</h2>
 
-    <section class="card">
+    <p>
+        Soni Video Splitter is a simple Android application
+        designed to split long videos into smaller parts quickly
+        and easily.
+    </p>
 
-        <h2>Our App</h2>
+    <div class="features">
 
-        <div class="app">
-
-            <div class="app-icon">
-                SVS
-            </div>
-
-            <div>
-                <h3>Soni Video Splitter</h3>
-
-                <p>
-                    Soni Video Splitter is a simple video splitting
-                    application designed to split long videos into
-                    smaller parts quickly and easily.
-                </p>
-            </div>
-
+        <div class="feature">
+            <h3>⚡ Fast</h3>
+            <p>Quick video splitting.</p>
         </div>
 
-        <div class="features">
-
-            <div class="feature">
-                <h3>⚡ Fast</h3>
-                <p>Designed for quick video splitting.</p>
-            </div>
-
-            <div class="feature">
-                <h3>📱 Easy</h3>
-                <p>Simple and user-friendly interface.</p>
-            </div>
-
-            <div class="feature">
-                <h3>🔒 Private</h3>
-                <p>Video processing is designed with user privacy in mind.</p>
-            </div>
-
-            <div class="feature">
-                <h3>🎬 Quality</h3>
-                <p>Options designed to preserve video quality.</p>
-            </div>
-
+        <div class="feature">
+            <h3>📱 Easy</h3>
+            <p>Simple and user-friendly.</p>
         </div>
 
-    </section>
+        <div class="feature">
+            <h3>🔒 Private</h3>
+            <p>Designed with privacy in mind.</p>
+        </div>
 
+        <div class="feature">
+            <h3>🎬 Quality</h3>
+            <p>Video quality focused processing.</p>
+        </div>
 
-    <section class="card">
+    </div>
 
-        <h2>Our Mission</h2>
+    <a class="download-btn"
+       href="https://github.com/mrsodha1990-jpg/soni-apps/releases/download/v1.0/app-debug.apk">
+       Download APK
+    </a>
 
-        <p>
-            Our mission is to build useful mobile applications
-            that are simple to understand, easy to use and helpful
-            in everyday life.
-        </p>
+</section>
 
-    </section>
+<section class="card">
+    <h2>Our Mission</h2>
 
+    <p>
+        Our mission is to build useful mobile applications that
+        are simple to understand, easy to use and helpful in
+        everyday life.
+    </p>
+</section>
 
-    <section class="card">
+<section class="card">
+    <h2>Privacy</h2>
 
-        <h2>Privacy</h2>
+    <p>
+        Soni Apps respects user privacy. Our applications are
+        developed with a focus on useful functionality and a
+        simple, transparent user experience.
+    </p>
+</section>
 
-        <p>
-            Soni Apps respects user privacy. Applications are
-            developed with a focus on providing useful functionality
-            while keeping the user experience simple and transparent.
-        </p>
+<section class="card">
+    <h2>Contact</h2>
 
-    </section>
+    <p>
+        For questions, feedback or information about Soni Apps
+        and its applications, please contact us through our
+        official communication channels.
+    </p>
+</section>
 
-
-    <section class="card">
-
-        <h2>Contact</h2>
-
-        <p>
-            For questions, feedback or information about Soni Apps
-            and its applications, please contact us through our
-            official communication channels.
-        </p>
-
-    </section>
-
-</main>
-
+</div>
 
 <footer>
     <p>© 2026 Soni Apps. All Rights Reserved.</p>
